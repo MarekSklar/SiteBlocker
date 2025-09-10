@@ -6,15 +6,6 @@ fetch(chrome.runtime.getURL("config.json"))
   })
   .catch(err => console.error("Failed to load config:", err));
 
-function createIdGenerator(start = 1) {
-    let current = start - 1; // private variable
-    return function() {
-        current += 1;
-        return current;
-    };
-}
-const getNextId = createIdGenerator();
-
 function addRuleWH(site, redirect, whiteList) {
     function matchAllKeyWords(changeInfoUrl) {
         let redirect = true;
