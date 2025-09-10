@@ -54,7 +54,7 @@ function start(config) {
     });
 }
 
-chrome.alarms.create("keepAlive", { periodInMinutes: 1 });
+chrome.alarms.create("keepAlive", { periodInMinutes: 0.3 });
 
 chrome.alarms.onAlarm.addListener((alarm) => {
     if (alarm.name === "keepAlive") {
