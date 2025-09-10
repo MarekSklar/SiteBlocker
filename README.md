@@ -11,4 +11,4 @@ I made this extension so I won't doomscroll on social media and actually be prod
                          // for "usesBlacklist": The url must contain at least one of the key words otherwise the redirect won't happen.
 ]
 ```
-> Tip: If you want to block a site completely just place the site into "usesBlacklist" and in key words list leave empty string.
+> Tip: If you want to block a site completely just place the site to "usesBlacklist" and in key words list leave empty string.
