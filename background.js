@@ -53,3 +53,12 @@ function start(config) {
         addRuleBL(site[0], site[1], site[2]);
     });
 }
+
+chrome.alarms.create("keepAlive", { periodInMinutes: 1 });
+
+chrome.alarms.onAlarm.addListener((alarm) => {
+    if (alarm.name === "keepAlive") {
+        // just a no-op to keep the worker awake
+        console.log("Service worker is alive");
+    }
+});
