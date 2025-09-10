@@ -6,7 +6,8 @@
         ],
 
         "usesBlacklist": [
-            ["youtube.com", "https://youtube.com", ["shorts"]]
+            ["youtube.com", "https://youtube.com", ["shorts"]],
+            ["www.linkedin.com", "https://www.linkedin.com/mynetwork", ["feed"]]
         ]
     }
 }
