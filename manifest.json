@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Site Blocker",
+    "version": "1.0",
+    "description": "Blocks sites so you won't doomscroll forever.",
+    "permissions": ["tabs", "webNavigation"],
+    "host_permissions": ["*://*/*"],
+    "background": {
+        "service_worker": "background.js"
+    }
+}

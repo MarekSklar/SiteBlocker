@@ -1,0 +1,12 @@
+{
+    "sites": {
+        "usesWhitelist": [
+            ["instagram.com", "https://www.instagram.com/direct", ["direct", "prezentiada", "tourdeapp", "pisqworky"]],
+            ["facebook.com", "https://facebook.com/messages", ["messages", "prezentiada", "tourdeapp", "pisqworky"]]
+        ],
+
+        "usesBlacklist": [
+            ["youtube.com", "https://youtube.com", ["shorts"]]
+        ]
+    }
+}
